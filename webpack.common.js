@@ -56,8 +56,8 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new BundleAnalyzerPlugin({
-      // analyzerMode: 'static',
-      // openAnalyzer: false,
+      analyzerMode: 'static',
+      openAnalyzer: false,
       // to run: npm run build
     }),
 
